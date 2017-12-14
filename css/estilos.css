@@ -1,0 +1,63 @@
+.cuerpo-blog{
+    background-color:dimgray;
+}
+/* estilo del Header */
+.encabezado {
+    background-color: #330033;
+}
+
+.logo-rock {
+    width: 250px;
+    height: 140px;
+    margin: 10px;
+}
+
+.redes-sociales {
+    margin-top: 100px;
+}
+
+.menu {
+    background-color: #efefef;
+    border-radius: 0px;
+}
+
+.enlace-menu {
+    color: #330033;
+    padding: 10px;
+}
+
+.boton-menu{
+    padding-left: 15px;
+}
+
+.boton-menu:hover {
+    background-color: white;
+}
+
+/* estilo seccion articulos*/
+
+.cuerpo-articulo {
+    background-color: #330033;
+}
+
+.articulos,.seccion-buscar {
+    background-color: #efefef;
+    margin: 1rem;
+    padding: 1rem 0;
+}
+
+hr.style1{
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+
+@media (max-width:720px) {
+    .titulo-lista, .lista-busqueda {
+        display: none;
+    }
+    
+    .redes-sociales {
+        margin-top: 0px;
+        text-align: center;
+    }
+}
